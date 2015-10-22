@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageButton
+            android:id="@+id/btn_thumb_1"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="1dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img" />
+    </LinearLayout>
+
+<!-- 
+这个初始化状态为隐藏的ImageView将会持有一个扩大/缩放版本的图片,
+并且浮于布局上层，没有动画施加在上面，并且占据整个屏幕。要实现“缩放”的动画，这个View是从上面的缩
+略图按钮的边界开始，扩大至最终的放大后的边界。
+ -->
+
+<ImageView 
+    android:id="@+id/expanded_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible"/>
+</FrameLayout>

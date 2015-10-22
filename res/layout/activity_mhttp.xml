@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.trainingdemo.MHttpActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="httpurlconnection" />
+
+    <Button
+        android:id="@+id/btn_con_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get" />
+
+    <Button
+        android:id="@+id/btn_con_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post" />
+
+    <Button
+        android:id="@+id/btn_con_put"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="put" />
+
+    <Button
+        android:id="@+id/btn_con_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="httpclient" />
+    
+    <Button
+        android:id="@+id/btn_client_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get" />
+
+    <Button
+        android:id="@+id/btn_client_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post" />
+
+    <Button
+        android:id="@+id/btn_client_put"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="put" />
+
+    <Button
+        android:id="@+id/btn_client_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+</LinearLayout>

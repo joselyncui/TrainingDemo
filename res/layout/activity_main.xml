@@ -1,0 +1,108 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" 
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/actionBarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action Bar" />
+
+    <Button
+        android:id="@+id/dbActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Db operate" />
+
+    <Button
+        android:id="@+id/intentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent" />
+
+    <Button
+        android:id="@+id/weightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weight" />
+
+    <Button
+        android:id="@+id/fragmentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fragment" />
+
+    <Button
+        android:id="@+id/fileBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="file" />
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share" />
+    <Button 
+        android:id="@+id/mediaBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Media"/>
+    
+    <Button 
+        android:id="@+id/bitmapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bitmap"/>
+    <Button 
+        android:id="@+id/changeConfigBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="retain state"/>
+	<Button
+	    android:id="@+id/openglEsBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="OpenGl Es"/>
+	
+	<Button 
+	    android:id="@+id/animationsBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="animation"/>
+	<Button 
+	    android:id="@+id/btn_wirless_api"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="wirless api"/>
+	<Button 
+	    android:id="@+id/btn_notification"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="notification"/>
+	<Button 
+	    android:id="@+id/btn_memory"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="check memory"/>
+	<Button 
+	    android:id="@+id/btn_handler"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="handler"/>
+	<Button 
+	    android:id="@+id/btn_event_disp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="dispatch event"/>
+</LinearLayout>
+
+</ScrollView>
+    

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrainingDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Setting</string>
+    <string name="title_activity_db">DBActivity</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_style">StyleActivity</string>
+    <string name="title_activity_weight">WeightActivity</string>
+    <string name="title_activity_fragment">MFragmentActivity</string>
+    <string name="title_activity_file">FileActivity</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_file_receiver">FileReceiverActivity</string>
+    <string name="title_activity_media">MediaActivity</string>
+    <string name="title_activity_bitmap">BitmapActivity</string>
+    <string name="title_activity_list_img">ListImgActivity</string>
+    <string name="title_activity_disk_cache">DiskCacheActivity</string>
+    <string name="title_activity_change_config">ChangeConfigActivity</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+    <string name="title_activity_open_gl">OpenGLActivity</string>
+    <string name="title_activity_animate">AnimateActivity</string>
+    <string name="title_activity_card_anim">CardAnimActivity</string>
+    <string name="title_activity_zoom_anim">ZoomAnimActivity</string>
+    <string name="title_activity_change_layout_anim">ChangeLayoutAnimActivity</string>
+    <string name="title_activity_wirless_api">WirlessApiActivity</string>
+    <string name="title_activity_net_disc">NetDiscActivity</string>
+    <string name="title_activity_mnotification_activity">MNotificationActivityActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_check_memory">CheckMemoryActivity</string>
+    <string name="title_activity_mhandler">MHandlerActivity</string>
+    <string name="title_activity_mdis_event">MDisEventActivity</string>
+    <string name="title_activity_life_circle">LifeCircleActivity</string>
+    <string name="title_activity_life_circle2">LifeCircle2Activity</string>
+    <string name="title_activity_life_circle3">LifeCircle3Activity</string>
+    <string name="title_activity_mservice">MServiceActivity</string>
+    <string name="title_activity_meb_view">MebViewActivity</string>
+    <string name="title_activity_mcontent">MContentActivity</string>
+    <string name="title_activity_mlist_type">MListTypeActivity</string>
+    <string name="title_activity_thread_pool">ThreadPoolActivity</string>
+    <string name="title_activity_vertical_view">VerticalViewActivity</string>
+    <string name="title_activity_mhttp">MHttpActivity</string>
+    <string name="title_activity_edit_text">EditTextActivity</string>
+
+</resources>

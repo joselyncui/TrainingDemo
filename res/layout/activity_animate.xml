@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.trainingdemo.AnimateActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="16dp"
+                android:text="hahahhah" />
+        </ScrollView>
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            style="?android:progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_card_anim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="card animation" />
+
+            <Button
+                android:id="@+id/btn_zoom_anim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="zoom anim" />
+            <Button 
+                android:id="@+id/btn_change_anim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="layout change animation"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

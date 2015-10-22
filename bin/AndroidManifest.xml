@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.trainingdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="21" />
+
+    <permission
+        android:name="com.test.permission.CUSTOM_PERMISSION"
+        android:protectionLevel="normal" >
+    </permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.test.permission.CUSTOM_PERMISSION" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
+    <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+
+            
+        </activity>
+        <activity
+            android:name=".ActionBarTest"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+
+            <!-- android:theme="@style/Theme.AppCompat.Light" -->
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.test.trainingdemo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DBActivity"
+            android:label="@string/title_activity_db" >
+        </activity>
+        <activity
+            android:name=".IntentActivity"
+            android:label="@string/title_activity_intent" >
+        </activity>
+        <activity
+            android:name=".StyleActivity"
+            android:label="@string/title_activity_style" >
+        </activity>
+        <activity
+            android:name=".WeightActivity"
+            android:label="@string/title_activity_weight"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".MFragmentActivity"
+            android:label="@string/title_activity_fragment"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".FileActivity"
+            android:label="@string/title_activity_file" >
+        </activity>
+        <activity
+            android:name=".ShareActivity"
+            android:label="@string/title_activity_share"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".FileReceiverActivity"
+            android:label="@string/title_activity_file_receiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MediaActivity"
+            android:label="@string/title_activity_media" >
+        </activity>
+
+        <receiver android:name="com.test.receiver.RemoteControlReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".BitmapActivity"
+            android:label="@string/title_activity_bitmap" >
+        </activity>
+        <activity
+            android:name=".ListImgActivity"
+            android:label="@string/title_activity_list_img" >
+           
+        </activity>
+        <activity
+            android:name=".DiskCacheActivity"
+            android:label="@string/title_activity_disk_cache" >
+        </activity>
+        <activity
+            android:name=".ChangeConfigActivity"
+            android:label="@string/title_activity_change_config" >
+        </activity>
+        <activity
+            android:name=".ImageDetailActivity"
+            android:label="@string/title_activity_view_pager" >
+        </activity>
+        <activity
+            android:name=".OpenGLActivity"
+            android:label="@string/title_activity_open_gl" >
+        </activity>
+        <activity
+            android:name=".AnimateActivity"
+            android:label="@string/title_activity_animate" >
+        </activity>
+        <activity
+            android:name=".CardAnimActivity"
+            android:label="@string/title_activity_card_anim" >
+        </activity>
+        <activity
+            android:name=".ZoomAnimActivity"
+            android:label="@string/title_activity_zoom_anim" >
+        </activity>
+        <activity
+            android:name=".ChangeLayoutAnimActivity"
+            android:label="@string/title_activity_change_layout_anim" >
+        </activity>
+        <activity
+            android:name=".WirlessApiActivity"
+            android:label="@string/title_activity_wirless_api" >
+        </activity>
+        <activity
+            android:name=".NetDiscActivity"
+            android:label="@string/title_activity_net_disc" >
+        </activity>
+        <activity
+            android:name=".MNotificationActivity"
+            android:label="@string/title_activity_mnotification_activity" >
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name=".CheckMemoryActivity"
+            android:label="@string/title_activity_check_memory" >
+        </activity>
+        <activity
+            android:name=".MHandlerActivity"
+            android:label="@string/title_activity_mhandler" >
+        </activity>
+        <activity
+            android:name=".MDisEventActivity"
+            android:label="@string/title_activity_mdis_event" >
+        </activity>
+        <activity
+            android:name=".LifeCircleActivity"
+            android:label="@string/title_activity_life_circle" >
+        </activity>
+        <activity
+            android:name=".LifeCircle2Activity"
+            android:label="@string/title_activity_life_circle2"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name=".LifeCircle3Activity"
+            android:label="@string/title_activity_life_circle3" >
+        </activity>
+        <activity
+            android:name=".MServiceActivity"
+            android:label="@string/title_activity_mservice" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MReceiverActivity" >
+        </activity>
+
+        <receiver android:name="com.test.receiver.MReceiver" >
+            <intent-filter>
+                <action android:name="com.test.action.CUSTOM_ACTION" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.test.receiver.MSecondReceiver" >
+        </receiver>
+
+        <service android:name="com.test.service.Mservice" >
+        </service>
+        <service android:name="com.test.service.MBindService" >
+        </service>
+        <service android:name="com.test.service.MIntentService" >
+        </service>
+
+        <activity
+            android:name=".MwebActivity"
+            android:label="@string/title_activity_meb_view" >
+        </activity>
+        <activity
+            android:name=".MContentActivity"
+            android:label="@string/title_activity_mcontent" >
+        </activity>
+        <activity
+            android:name=".MListTypeActivity"
+            android:label="@string/title_activity_mlist_type" >
+        </activity>
+        <activity
+            android:name=".ThreadPoolActivity"
+            android:label="@string/title_activity_thread_pool" >
+        </activity>
+        <activity
+            android:name=".VerticalViewActivity"
+            android:label="@string/title_activity_vertical_view" >
+        </activity>
+        <activity
+            android:name=".MHttpActivity"
+            android:label="@string/title_activity_mhttp" >
+            
+        </activity>
+        <activity
+            android:name=".EditTextActivity"
+            android:label="@string/title_activity_edit_text" >
+            
+        </activity>
+    </application>
+
+</manifest>
